@@ -4,8 +4,8 @@
 }
 
 @font-face {
-    font-family: Charmonman-B;
-    src: url(/fonts/Charmonman-Bold.ttf);
+    font-family: Roboto-B;
+    src: url(/fonts/Roboto-Bold.ttf);
 }
 
 @font-face {
@@ -100,35 +100,66 @@ video {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
+    list-style: none;
 }
 
 body {
     background: #ffffff;
-    background-image: url(../img/isometropolis.jpg);
+    background-image: url(../img/groovepaper.png);
     height: 100%;
+    font-family: Roboto-R;
+    line-height: 1.5;
+    font-size: 18px;
+}
 
+.first-information {
+    overflow: hidden;
+    width: 730px;
+    margin: 20px;
+    display: flex;
+}
+
+.first-information h2 {
+    font-family: Roboto-B;
+    font-size: 25px;
+    margin-bottom: 5px;
+    color:#4a4a4a;
+}
+
+.first-information_about {
+    margin-left: 20px;
+}
+
+.first-information ul li {
+    font-family: Roboto-R;
+}
+
+
+.name {
+    font-family: Roboto-B;
+    font-size: 40px;
+    color:#4a4a4a;
+}
+
+.img-avatar {
+    /*    float: left;*/
 }
 
 .main-section {
     width: 1024px;
     margin: auto;
-    border-left: white 1px solid;
-    border-right: white 1px solid;
+    border-left: rgba(217, 217, 217, 0.15) 1px solid;
+    border-right: rgba(217, 217, 217, 0.15) 1px solid;
     height: 100%;
-    overflow:hidden; 
-
+    overflow: hidden;
 }
 
-.name {
-    font-family: Charmonman-B;
-    font-size: 45px;
-}
 
 .section {
-    width: 680px;
-    margin: 30px 20px;
-    padding: 25px 20px 20px 20px;
-    background: #76b176;
+    margin: 30px 20px 40px 20px;
+    padding: 25px 200px 20px 20px;
+    outline: 2px solid rgb(92, 92, 92);
+    position: relative;
 }
 
 .section div {
@@ -137,28 +168,11 @@ body {
 }
 
 .section h2 {
-    font-family: Charmonman-R;
+    font-family: Roboto-B;
     font-size: 30px;
+    position: absolute;
+    top: -30px;
+    background-image: url(../img/groovepaper.png);
+    padding: 0px 10px;
+    color:#4a4a4a;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
