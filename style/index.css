@@ -1,16 +1,11 @@
 @font-face {
-    font-family: Charmonman-R;
-    src: url(/fonts/Charmonman-Regular.ttf);
-}
-
-@font-face {
     font-family: Roboto-B;
-    src: url(/fonts/Roboto-Bold.ttf);
+    src: url(..//fonts/Roboto-Bold.ttf);
 }
 
 @font-face {
     font-family: Roboto-R;
-    src: url(/fonts/Roboto-Regular.ttf);
+    src: url(..//fonts/Roboto-Regular.ttf);
 }
 
 html,
@@ -123,7 +118,7 @@ body {
     font-family: Roboto-B;
     font-size: 25px;
     margin-bottom: 5px;
-    color:#4a4a4a;
+    color: #4a4a4a;
 }
 
 .first-information_about {
@@ -138,7 +133,7 @@ body {
 .name {
     font-family: Roboto-B;
     font-size: 40px;
-    color:#4a4a4a;
+    color: #4a4a4a;
 }
 
 .img-avatar {
@@ -156,10 +151,11 @@ body {
 
 
 .section {
+    position: relative;
+    width: 700px; 
     margin: 30px 20px 40px 20px;
     padding: 25px 200px 20px 20px;
     outline: 2px solid rgb(92, 92, 92);
-    position: relative;
 }
 
 .section div {
@@ -174,5 +170,15 @@ body {
     top: -30px;
     background-image: url(../img/groovepaper.png);
     padding: 0px 10px;
-    color:#4a4a4a;
+    color: #4a4a4a;
 }
+
+
+.img-icon {
+    position: absolute;
+    right: 20px;
+    top: -30px;
+    background-image: url(../img/groovepaper.png);
+}
+
+
