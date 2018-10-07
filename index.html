@@ -7,7 +7,11 @@
     <link rel="stylesheet" href="style/index.css">
 </head>
 
-<body>
+<body id="body">
+    <header>
+        <span class="light" id="light">&#9728;</span>
+        <span class="on-top"><a href="#body">&#8657;</a></span>
+    </header>
     <main class="main-section">
         <article class="first-information">
             <img class="img-avatar" src="img/avatar.jpg" alt="avatar" height="300">
@@ -45,7 +49,6 @@
                 <li>Adobe Illustrator</li>
             </ul>
         </section>
-
         <section class="section section_english" id="top">
             <img class="img-icon" src="img/i4.png" alt="avatar" height="100">
             <h2>English courses</h2>
@@ -71,7 +74,21 @@
             </ul>
         </section>
     </main>
+    <script>
+        let light = document.querySelector('#light'),
+            body = document.querySelector('#body'),
+            icon = document.querySelectorAll('.img-icon');
 
+        function changeWebColor(e) {
+            e.currentTarget.parentElement.classList.toggle('body-light');
+            body.classList.toggle('body-night');
+            e.currentTarget.classList.toggle('elem-night');
+            for (let i = 0, len = icon.length; i < len; i++) {
+                icon[i].classList.toggle('body-night');
+            }
+        }
+        light.onclick = changeWebColor;
+    </script>
 </body>
 
 </html>
