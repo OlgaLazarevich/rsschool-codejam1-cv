@@ -97,12 +97,11 @@ video {
     vertical-align: baseline;
     list-style: none;
 }
-
 body {
     background: #ffffff;
     background-image: url(../img/groovepaper.png);
     height: 100%;
-    font-family: Roboto-R;
+    font-family: Roboto-R, Arial, sans-serif;
     line-height: 1.5;
     font-size: 18px;
 }
@@ -113,33 +112,28 @@ body {
     margin: 20px;
     display: flex;
 }
-
 .first-information h2 {
-    font-family: Roboto-B;
+    font-family: Roboto-B, Arial, sans-serif;
     font-size: 25px;
     margin-bottom: 5px;
     color: #4a4a4a;
 }
-
 .first-information_about {
     margin-left: 20px;
 }
-
-.first-information ul li {
-    font-family: Roboto-R;
-}
-
-
-.name {
-    font-family: Roboto-B;
-    font-size: 40px;
+.first-information_about span{
+    font-family: Roboto-B, Arial, sans-serif;
     color: #4a4a4a;
 }
 
-.img-avatar {
-    /*    float: left;*/
+.first-information ul li {
+    font-family: Roboto-R, Arial, sans-serif;
 }
-
+.name {
+    font-family: Roboto-B, Arial, sans-serif;
+    font-size: 40px;
+    color: #4a4a4a;
+}
 .main-section {
     width: 1024px;
     margin: auto;
@@ -148,23 +142,19 @@ body {
     height: 100%;
     overflow: hidden;
 }
-
-
 .section {
     position: relative;
-    width: 700px; 
+    width: 700px;
     margin: 30px 20px 40px 20px;
     padding: 25px 200px 20px 20px;
     outline: 2px solid rgb(92, 92, 92);
 }
-
 .section div {
+    font-family: Roboto-R, Arial, sans-serif;
     font-size: 18px;
-    font-family: Roboto-R;
 }
-
 .section h2 {
-    font-family: Roboto-B;
+    font-family: Roboto-B, Arial, sans-serif;
     font-size: 30px;
     position: absolute;
     top: -30px;
@@ -172,8 +162,6 @@ body {
     padding: 0px 10px;
     color: #4a4a4a;
 }
-
-
 .img-icon {
     position: absolute;
     right: 20px;
@@ -181,4 +169,14 @@ body {
     background-image: url(../img/groovepaper.png);
 }
 
-
+.section_english span {
+    font-family: Roboto-B, Arial, sans-serif;
+    color: #4a4a4a;
+}
+a {
+    font-family: Roboto-B, Arial, sans-serif;
+    color: #ff9900;
+}
+a:visited {
+    color: #a7a0a0;
+}
