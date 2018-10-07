@@ -97,6 +97,7 @@ video {
     vertical-align: baseline;
     list-style: none;
 }
+
 body {
     background: #ffffff;
     background-image: url(../img/groovepaper.png);
@@ -107,21 +108,24 @@ body {
 }
 
 .first-information {
-    overflow: hidden;
-    width: 730px;
-    margin: 20px;
     display: flex;
+    margin: 20px;
+    width: 730px;
+    overflow: hidden;
 }
+
 .first-information h2 {
     font-family: Roboto-B, Arial, sans-serif;
     font-size: 25px;
     margin-bottom: 5px;
     color: #4a4a4a;
 }
+
 .first-information_about {
     margin-left: 20px;
 }
-.first-information_about span{
+
+.first-information_about span {
     font-family: Roboto-B, Arial, sans-serif;
     color: #4a4a4a;
 }
@@ -129,11 +133,13 @@ body {
 .first-information ul li {
     font-family: Roboto-R, Arial, sans-serif;
 }
+
 .name {
     font-family: Roboto-B, Arial, sans-serif;
     font-size: 40px;
     color: #4a4a4a;
 }
+
 .main-section {
     width: 1024px;
     margin: auto;
@@ -142,6 +148,7 @@ body {
     height: 100%;
     overflow: hidden;
 }
+
 .section {
     position: relative;
     width: 700px;
@@ -149,10 +156,12 @@ body {
     padding: 25px 200px 20px 20px;
     outline: 2px solid rgb(92, 92, 92);
 }
+
 .section div {
     font-family: Roboto-R, Arial, sans-serif;
     font-size: 18px;
 }
+
 .section h2 {
     font-family: Roboto-B, Arial, sans-serif;
     font-size: 30px;
@@ -162,6 +171,7 @@ body {
     padding: 0px 10px;
     color: #4a4a4a;
 }
+
 .img-icon {
     position: absolute;
     right: 20px;
@@ -169,14 +179,26 @@ body {
     background-image: url(../img/groovepaper.png);
 }
 
+.section:nth-child(3) .img-icon {
+    right: 40px;
+    top: -30px;
+}
+
+.section:nth-child(4) .img-icon {
+    right: 30px;
+    top: -30px;
+}
+
 .section_english span {
     font-family: Roboto-B, Arial, sans-serif;
     color: #4a4a4a;
 }
+
 a {
     font-family: Roboto-B, Arial, sans-serif;
     color: #ff9900;
 }
+
 a:visited {
     color: #a7a0a0;
 }
